@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".InformationProfile">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+android:id="@+id/toolbar_information"
+            android:layout_height="?actionBarSize"
+             />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/one"
+
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_id"
+            android:background="@drawable/et_shape2"
+
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+
+            android:inputType="number"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:hint="@string/Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_name"
+
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+
+            android:hint="@string/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/three"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tow">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_age"
+            android:hint="@string/age"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fore"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/three">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_date_start"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:hint="@string/date_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/five"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fore">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_number_month"
+            android:layout_width="match_parent"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:hint="@string/number_month"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/six"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/five">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_price"
+            android:inputType="number"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:hint="@string/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/siven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/six">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_propriety"
+            android:hint="@string/propriety"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:gravity="center"
+        android:id="@+id/radio_group"
+        android:background="@drawable/et_shape2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/_8sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siven">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:buttonTint="@color/radiobutton_color"
+            android:checked="true"
+            android:drawableStart="@drawable/ic_male"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:drawableStart="@drawable/ic_female"
+            android:layout_width="wrap_content"
+            android:buttonTint="@color/radiobutton_color"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:padding="@dimen/_8sdp"
+    android:text="@string/add"
+    android:id="@+id/btn_add"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/btn_shape"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/radio_group">
+
+</Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/edit"
+        android:id="@+id/btn_edit"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/btn_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group"/>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:hintTextColor="@color/primary_text"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ev_add_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_shape2"
+            android:padding="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:visibility="gone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>

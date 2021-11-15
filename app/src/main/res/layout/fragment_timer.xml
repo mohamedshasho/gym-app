@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+    android:padding="@dimen/_10sdp"
+    tools:context=".Dialogs.TimerFragment">
+<!--<Button-->
+<!--    android:layout_width="@dimen/_30sdp"-->
+<!--    android:layout_height="@dimen/_30sdp"-->
+<!--    android:layout_above="@id/timer_progress"-->
+<!--    android:layout_toRightOf="@id/timer_progress"-->
+<!--    android:layout_marginBottom="-40dp"-->
+<!--    android:layout_marginLeft="-40dp"-->
+<!--    android:background="@drawable/ic_timer_cancel"-->
+<!--    android:id="@+id/timer_cancel"/>-->
+    <ProgressBar
+        android:id="@+id/timer_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/timer_circle_progress"
+        android:indeterminate="false"
+
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/timer_circle"
+        android:rotation="-90" />
+    <TextView
+        android:id="@+id/timer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"/>
+<!--    <Button-->
+<!--        android:id="@+id/start_timer"-->
+<!--        android:background="@drawable/ic_play_button"-->
+<!--        android:layout_width="@dimen/_40sdp"-->
+<!--        android:layout_height="@dimen/_40sdp"-->
+<!--        android:layout_below="@id/timer_time"-->
+<!--        android:layout_marginTop="@dimen/_50sdp"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+</RelativeLayout>

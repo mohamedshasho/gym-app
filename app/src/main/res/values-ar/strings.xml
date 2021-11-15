@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App with back4app</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="Id">الرقم</string>
+    <string name="password">كلمة السر</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="signup">لا تملك حساب؟ سجل الآن!</string>
+    <string name="forgetpassword">نسيت كلمة السر؟</string>
+    <string name="email">الإيميل</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="reset_password_tv">ادخل حسابك لإعادة تعيين كلمة السر</string>
+    <string name="reset_password_btn">اعادة تعيين</string>
+    <!--    رسائل الخطأ-->
+    <string name="error_id">الرقم مطلوب!</string>
+    <string name="error_name">الاسم مطلوب!</string>
+    <string name="error_email">الايميل مطلوب!</string>
+    <string name="error_age">العمر مطلوب!</string>
+    <string name="error_password">الباسوورد مطلوب!</string>
+    <string name="error_con_password">تأكيد الباسوورد مطلوب!</string>
+    <string name="error_password_length">يجب ان تحوي كلمة السر 6 احرف على الاقل!</string>
+    <string name="error_password_same">كلمة السر ليست متشابهه!</string>
+    <string name="error_date_start">التاريخ مطلوب!</string>
+    <string name="error_number_month">الرقم مطلوب!</string>
+    <string name="error_propriety">الصلاحية مطلوب!</string>
+    <string name="error_price">السعر مطلوب!</string>
+    <!-- رسائل التنبيه-->
+    <string name="loading">تحميل...</string>
+    <string name="send_reset_email">تم ارسال الرسالة الى البريد بنجاح.</string>
+    <string name="send_reset_email_error">حدث خطأ! تأكد من بريد الالكتروني.</string>
+
+    <string name="age">العمر</string>
+    <string name="date_start">تاريخ البدء</string>
+    <string name="number_month">عدد الاشهر</string>
+    <string name="propriety">الصلاحية</string>
+    <string name="price">السعر</string>
+    <string name="home_one_fragment_person">اللاعبين</string>
+    <string name="home_one_fragment_admin">المدربين</string>
+    <string name="add">إضافة</string>
+    <!-- الاضافات-->
+    <string name="add_name">الاسم: </string>
+    <string name="add_age"> العمر:</string>
+    <string name="add_Date_start">تاريخ التسجيل: </string>
+    <string name="add_num_month">عدد الاشهر: </string>
+    <string name="add_price"> السعر:</string>
+    <string name="add_propriety">الصلاحية: </string>
+    <string name="add_gender">الجنس: </string>
+    <string name="edit">تعديل</string>
+    <string name="tel">رقم الهاتف(اختياري)</string>
+    <string name="home_three_fragment_tools">ادوات</string>
+    <string name="home_profile_fragment">ملف الشخصي</string>
+    <!--معلومات المدرب-->
+    <string name="nameCoach">الاسم: </string>
+    <string name="ageCoach">العمر: </string>
+    <string name="telCoach">رقم: </string>
+    <string name="genderCoach">الجنس: </string>
+    <string name="messageCoach">معلومات: </string>
+    <string name="search">ادخل اسم المستخدم:</string>
+    <string name="visit">Log in as a visitor</string>
+
+</resources>
